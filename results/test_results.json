@@ -1,0 +1,168 @@
+{
+  "baseline": {
+    "accuracy": 0.9937369519832986,
+    "macro_f1": 0.9928473185339047,
+    "weighted_f1": 0.993730676434794,
+    "macro_auc": 0.9997462827427488,
+    "per_class_auc": [
+      0.9997807017543859,
+      1.0,
+      0.9992917075296939,
+      0.9999127216869151
+    ],
+    "classification_report": {
+      "Apple_scab": {
+        "precision": 0.9894736842105263,
+        "recall": 0.9894736842105263,
+        "f1-score": 0.9894736842105263,
+        "support": 95.0
+      },
+      "Black_rot": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 94.0
+      },
+      "Cedar_apple_rust": {
+        "precision": 1.0,
+        "recall": 0.9761904761904762,
+        "f1-score": 0.9879518072289156,
+        "support": 42.0
+      },
+      "healthy": {
+        "precision": 0.9919678714859438,
+        "recall": 0.9959677419354839,
+        "f1-score": 0.993963782696177,
+        "support": 248.0
+      },
+      "accuracy": 0.9937369519832986,
+      "macro avg": {
+        "precision": 0.9953603889241175,
+        "recall": 0.9904079755841216,
+        "f1-score": 0.9928473185339047,
+        "support": 479.0
+      },
+      "weighted avg": {
+        "precision": 0.9937537205188185,
+        "recall": 0.9937369519832986,
+        "f1-score": 0.993730676434794,
+        "support": 479.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        94,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        94,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        41,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        247
+      ]
+    ],
+    "classes": [
+      "Apple_scab",
+      "Black_rot",
+      "Cedar_apple_rust",
+      "healthy"
+    ]
+  },
+  "proposed": {
+    "accuracy": 0.9853862212943633,
+    "macro_f1": 0.9855022143749175,
+    "weighted_f1": 0.9853509459168388,
+    "macro_auc": 0.9993781487598731,
+    "per_class_auc": [
+      0.9992872807017544,
+      1.0,
+      0.9988013512040972,
+      0.9994239631336406
+    ],
+    "classification_report": {
+      "Apple_scab": {
+        "precision": 0.978494623655914,
+        "recall": 0.9578947368421052,
+        "f1-score": 0.9680851063829787,
+        "support": 95.0
+      },
+      "Black_rot": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 94.0
+      },
+      "Cedar_apple_rust": {
+        "precision": 1.0,
+        "recall": 0.9761904761904762,
+        "f1-score": 0.9879518072289156,
+        "support": 42.0
+      },
+      "healthy": {
+        "precision": 0.9800796812749004,
+        "recall": 0.9919354838709677,
+        "f1-score": 0.9859719438877755,
+        "support": 248.0
+      },
+      "accuracy": 0.9853862212943633,
+      "macro avg": {
+        "precision": 0.9896435762327036,
+        "recall": 0.9815051742258873,
+        "f1-score": 0.9855022143749175,
+        "support": 479.0
+      },
+      "weighted avg": {
+        "precision": 0.9854211904039397,
+        "recall": 0.9853862212943633,
+        "f1-score": 0.9853509459168388,
+        "support": 479.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        91,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        94,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        41,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        246
+      ]
+    ],
+    "classes": [
+      "Apple_scab",
+      "Black_rot",
+      "Cedar_apple_rust",
+      "healthy"
+    ]
+  }
+}

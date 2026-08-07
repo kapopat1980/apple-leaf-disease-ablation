@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this code or results, please cite the accompanying manuscript."
+title: "Does Added Model Complexity Help on a Near-Saturated Benchmark? An Empirical Ablation Study of Apple Leaf Disease Classification on PlantVillage"
+authors:
+  - family-names: Meva
+    given-names: Divyakant
+    affiliation: "Marwadi University, Rajkot, Gujarat, India"
+  - family-names: Popat
+    given-names: Kalpesh
+    affiliation: "Marwadi University, Rajkot, Gujarat, India"
+date-released: 2026-08-07
+license: MIT
+repository-code: "https://github.com/<your-org-or-username>/apple-leaf-disease-ablation"
